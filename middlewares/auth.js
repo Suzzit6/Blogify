@@ -8,7 +8,7 @@ function Authorization(cookie){
         try {
             const userinfo =  GetUser(token)
         req.user = userinfo
-        } catch (error) { }
+        } catch (error) {}
         
     return next()
 }}

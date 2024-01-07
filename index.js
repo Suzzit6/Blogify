@@ -16,7 +16,7 @@ app.set('views' , path.resolve('./view'))
 
 app.use(express.urlencoded({ extended:false }))
 app.use(cookieParser()) 
-// app.use(Authorization('token'))
+app.use(Authorization('token'))
 
 
 app.get('/' , (req, res)=>{
@@ -26,4 +26,4 @@ app.get('/' , (req, res)=>{
 }) 
 app.use('/',UserRoute) 
 
-app.listen(port , ()=> console.log(`Server Started at port ${port}`))
+app.listen(port , ()=> console.log(`Server Started at port ${port}`)) 
