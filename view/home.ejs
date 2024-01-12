@@ -4,8 +4,40 @@
     <%- include('./partials/head') %>
 </head>
 <body>
+  <style>
+    .blogs{
+      display: flex;
+      
+    }
+  </style>
   <%- include('./partials/nav') %>
-  
+  <div class="blogs">
+  <% blogs.forEach(blog => { %>
+    <div class="card mt-3" style="width: 18rem; margin-left: 35px;">
+      <img src="<%= blog.coverImage %>" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"><%= blog.title %></h5>
+        <a href= "/blog/<%=blog._id%>" class="btn btn-primary">View</a>
+      </div>
+    </div>
+      <% }) %>
+    </div>
+   
+    <% if (user) { %>
+      <h3 class=" container">Your Blogs</h3>
+      <div class="blogs container">
+        
+      <% user_blogs.forEach(blog => { %>
+        <div class="card mt-3" style="width: 18rem; margin-left: 35px;">
+          <img src="<%= blog.coverImage %>" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"><%= blog.title %></h5>
+            <a href= "/blog/<%=blog._id%>" class="btn btn-primary">View</a>
+          </div>
+        </div>
+          <% }) %>
+        </div>
+    <% } %>
   <%- include('./partials/script') %>
 </body>
 </html>
