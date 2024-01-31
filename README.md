@@ -9,8 +9,8 @@
 <h2>🧐 Features</h2>
 Here're some of the project's best features:
 
-1.User-Friendly Interface: Intuitive design for effortless navigation.
-2.Express and Node.js Backend: Robust backend for efficient blog operations.
-3.Multer for File Uploads: Smooth file uploads, allowing cover images.
-4.Secure Authentication Middleware: Ensures a secure environment for authorized users.
+1.User-Friendly Interface: Intuitive design for effortless navigation. <br>
+2.Express and Node.js Backend: Robust backend for efficient blog operations.<br>
+3.Multer for File Uploads: Smooth file uploads, allowing cover images.<br>
+4.Secure Authentication Middleware: Ensures a secure environment for authorized users.<br>
 5.Dynamic Blog Creation: User-friendly forms for blog creation and editing.
