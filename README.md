@@ -1,3 +1,5 @@
+![Blogify](https://socialify.git.ci/Suzzit6/Blogify/image?description=1&descriptionEditable=Blogify%20is%20a%20dynamic%20blog%20web%20application%20built%20with%20Express.js%2C%20Node.js%2C%20and%20MongoDB.%20It%20offers%20a%20user-friendly%20interface%2C%20efficient%20backend%2C%20seamless%20file%20uploads%2C%20secure%20authentication%2C%20and%20dynamic%20blog%20creation.&name=1&owner=1&theme=Light)
+
 <p id="description">Blogify is a dynamic blog web application built with Express.js, Node.js, and MongoDB. It offers a user-friendly interface, efficient backend, seamless file uploads, secure authentication, and dynamic blog creation.</p>
 
  <h2>🚀 Visit Site </h2>
