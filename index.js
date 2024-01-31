@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const port = 7500
 const path = require('path')
+require('dotenv').config();
+
 const cookieParser = require('cookie-parser')
 
 
@@ -13,7 +15,7 @@ const UserRoute = require('./routes/user')
 const BlogRoute = require('./routes/blog')
 
 const { ConnectMongo } = require('./connection')
-ConnectMongo('mongodb://localhost:27017')
+ConnectMongo(process.env.Mongo_uri)
 
 app.set('view engine' , 'ejs' )
 app.set('views' , path.resolve('./view'))
