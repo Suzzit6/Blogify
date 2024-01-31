@@ -1,6 +1,6 @@
 const { Schema, model } = require("mongoose")
 const {createHmac, randomBytes} = require("crypto")
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const argon2 = require('argon2');
 const { createToken } = require("../services/auth");
 
